@@ -1,0 +1,1 @@
+# Synch: A minimalist and modern chat system
