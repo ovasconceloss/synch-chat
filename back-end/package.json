@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "a modern and minimalist real-time chat (back-end).",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "node --experimental-transform-types --trace-warnings --watch src/index.ts"
+  },
   "keywords": [
     "typescript",
     "nodejs"
