@@ -1,8 +1,3 @@
-import pino from "pino";
+const loggerInstance = require('pino')();
 
-const logger = pino({
-  level: process.env.PINO_LOG_LEVEL || "info",
-  timestamp: pino.stdTimeFunctions.isoTime,
-});
-
-export default logger;
+export default loggerInstance;
